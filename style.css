@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.home{
+    margin: 15px 100px 15px;
+    overflow: hidden;
+}
+/* HEADER */
+.home .header{
+    
+    width: 100%;
+    height: 57px;
+
+}
+nav > * {
+    flex: 1;
+  }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 57px;
+    
+    padding: 15px;
+    
+}
+
+nav ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+nav ul li{
+    list-style: none;
+    font-weight: 500;
+    
+}
+
+.logo{
+    margin: -16px 0 6px 0;
+    text-align: center;
+    height: 57px;
+}
+
+.logo p:first-child{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.cart{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+  
+
+ 
+}
+.cart span {
+    color: #FFF;
+    background: red;
+    width: 48px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20%;
+  }
+
+  .cart figure{
+    width: 55px;
+  }
+  .cart figure img{
+    border-radius: 50%;
+    margin-top: -7px;
+  }
+  /* End of header */
+
+  /* banner */
+  .banner{
+    background-color: #eff0f4;
+    width: 100%;
+    height: 70vh;
+    margin: 40px 0 20px;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+  }
+
+  .banner .banner-left{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    top: 25%;
+    left: 10%;
+    
+  }
+
+  .banner .banner-left .banner-title{
+    text-align: left;
+    width: 547px;
+    position: absolute;
+    
+  }
+  .banner .banner-left .banner-title > p:first-child{
+    font-size: 40px;
+    font-weight: 700;
+    
+  }
+  
+  .banner .banner-right{
+    position: relative;
+    height: 100%;
+    width: 50%;
+  }
+
+
+  .selection{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    gap: 90px;
+  }
+
+
+  .color {
+    margin: 25px 5px 10px;
+  }
+
+  .color .blue{
+    background-color: #597ed9;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    border: 3px solid #FFF;
+  }
+  .color .pink{
+    background-color: #fba9a5;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    border: 3px solid #FFF;
+  }
+  .color .yellow{
+    background-color: #f9c303;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    border: 3px solid #FFF;
+  }
+  .color .green{
+    background-color: #3edea6;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    border: 3px solid #FFF;
+  }
+  .color p{
+    font-size: 13px ;
+    
+  }
+
+  .sizes {
+    margin: 25px 5px 10px;
+  }
+
+  .sizes .small{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #e0e1e5;
+    text-align: center;
+    margin-right: 5px;
+  }
+  .sizes .medium{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ebbdbd;
+    text-align: center;
+    color: #e27b7b;
+    margin-right: 5px;
+  }
+  .sizes .large{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #e0e1e5;
+    text-align: center;
+    margin-right: 5px;
+  }
+  .sizes .xl{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #e0e1e5;
+    text-align: center;
+    margin-right: 5px;
+  }
+
+  .pricing{
+    margin-top: 20px;
+    position: absolute;
+  }
+  .pricing p{
+    font-weight: 600;
+  }
+  .pricing span:first-child{
+    text-decoration: line-through;
+    margin-left: 3px;
+  }
+  
+  .pricing span:last-child{
+    color: white;
+    display: inline-block;
+    background-color: #d92b1c;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-left: 15px;
+
+  }
+
+  .banner-right img{
+    position: absolute;
+  height: 530px;
+  bottom: -5px;
+  left: 79px;
+  object-fit: contain;
+  }
+
+  
+  /* End of banner */
